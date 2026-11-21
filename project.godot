@@ -1,0 +1,17 @@
+config_version=5
+
+[application]
+config/name="Alder Valley — Godot 4 World Map"
+run/main_scene="res://world_map.tscn"
+config/features=PackedStringArray("4.6", "GL Compatibility")
+
+[display]
+window/size/viewport_width=960
+window/size/viewport_height=540
+window/size/window_width_override=960
+window/size/window_height_override=540
+window/stretch/mode="canvas_items"
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+environment/defaults/default_clear_color=Color(0.051, 0.091, 0.10, 1)
