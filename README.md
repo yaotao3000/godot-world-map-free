@@ -36,6 +36,8 @@ In your game, use your quest or inventory state to decide when the bridge pass r
 
 ## Unlock East Gate with a bridge pass
 
+[Download the ready-to-run bridge-pass ZIP](https://github.com/yaotao3000/godot-world-map-free/releases/download/v1.0.0/small-hours-godot-bridge-pass-free-project.zip). Import `project.godot` in Godot 4.6 and press F5.
+
 Open [`examples/bridge_pass_map.tscn`](examples/bridge_pass_map.tscn) in Godot 4.6 and press **F6**. If you started with the v1.0.0 ZIP, place the [scene](examples/bridge_pass_map.tscn) and [GDScript](examples/world_map_bridge_pass.gd) in an `examples/` folder next to `project.godot` first.
 
 1. Select **East Gate**. It shows **Locked** and the route stays hidden.
