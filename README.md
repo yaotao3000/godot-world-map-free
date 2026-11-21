@@ -1,4 +1,6 @@
-# Alder Valley — a clickable world map for Godot 4
+# Alder Valley, a free Godot 4.6 RPG world map
+
+Preview a six-tile route, show why a destination is locked, and place four terrain symbols on a 2D map. The project includes an editable GDScript scene.
 
 [Play in your browser](https://small-hours-assets.vercel.app/guides/godot-world-map?utm_source=github_world_map_project) · [Download the Godot project ZIP](https://github.com/yaotao3000/godot-world-map-free/releases/latest/download/small-hours-godot-world-map-free-project.zip)
 
