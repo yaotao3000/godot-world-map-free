@@ -2,7 +2,7 @@
 
 Preview a six-tile route, show why a destination is locked, and place four terrain symbols on a 2D map. The project includes an editable GDScript scene.
 
-[Play in your browser](https://small-hours-assets.vercel.app/guides/godot-world-map?utm_source=github_world_map_project) · [Download the Godot project ZIP](https://github.com/yaotao3000/godot-world-map-free/releases/latest/download/small-hours-godot-world-map-free-project.zip) · [Watch the 61-second tutorial](https://www.youtube.com/watch?v=sb3LY0ox1tk) · [Try the bridge-pass scene](#unlock-east-gate-with-a-bridge-pass)
+[Play the world map in your browser](https://small-hours-assets.vercel.app/guides/godot-world-map?utm_source=github_world_map_project#world-title) · [Download the Godot project ZIP](https://github.com/yaotao3000/godot-world-map-free/releases/latest/download/small-hours-godot-world-map-free-project.zip) · [Watch the 61-second tutorial](https://www.youtube.com/watch?v=sb3LY0ox1tk) · [Try the bridge-pass scene](#unlock-east-gate-with-a-bridge-pass)
 
 ![Godot 4.6 running the sample with a dashed route to Pine Camp](docs/godot-preview.png)
 
@@ -48,7 +48,7 @@ Open [`examples/bridge_pass_map.tscn`](examples/bridge_pass_map.tscn) in Godot 4
 
 Call `set_bridge_pass(owned)` on the map after it is ready whenever your game's inventory or quest state changes. The sample keeps ownership in memory for the current run. Connect your own save system if the pass should persist. The separate scene uses the free project art and keeps the original map scene available with **F5**.
 
-[Try the original world map in your browser](https://small-hours-assets.vercel.app/guides/godot-world-map?utm_source=github_world_map_project) · [Find the route and quest icon packs in the Black Friday sale](https://small-hours-assets.vercel.app/black-friday?utm_source=github_world_map_project)
+[Take the bridge pass and unlock East Gate in your browser](https://small-hours-assets.vercel.app/guides/godot-world-map?utm_source=github_world_map_project#world-title) · [Find the route and quest icon packs in the Black Friday sale](https://small-hours-assets.vercel.app/black-friday?utm_source=github_world_map_project)
 
 ## What you get
 
