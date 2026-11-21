@@ -1,6 +1,6 @@
 # Alder Valley — a clickable world map for Godot 4
 
-[Play in your browser](https://small-hours-assets.vercel.app/guides/godot-world-map?utm_source=github_world_map_project) · [Download the Godot project ZIP](https://github.com/yaotao3000/godot-world-map-free/releases/latest)
+[Play in your browser](https://small-hours-assets.vercel.app/guides/godot-world-map?utm_source=github_world_map_project) · [Download the Godot project ZIP](https://github.com/yaotao3000/godot-world-map-free/releases/latest/download/small-hours-godot-world-map-free-project.zip)
 
 ![Godot 4.6 running the sample with a dashed route to Pine Camp](docs/godot-preview.png)
 
