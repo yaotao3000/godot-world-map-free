@@ -2,7 +2,7 @@
 
 Preview a six-tile route, show why a destination is locked, and place four terrain symbols on a 2D map. The project includes an editable GDScript scene.
 
-[Play in your browser](https://small-hours-assets.vercel.app/guides/godot-world-map?utm_source=github_world_map_project) · [Download the Godot project ZIP](https://github.com/yaotao3000/godot-world-map-free/releases/latest/download/small-hours-godot-world-map-free-project.zip) · [Watch the 61-second tutorial](https://www.youtube.com/watch?v=sb3LY0ox1tk)
+[Play in your browser](https://small-hours-assets.vercel.app/guides/godot-world-map?utm_source=github_world_map_project) · [Download the Godot project ZIP](https://github.com/yaotao3000/godot-world-map-free/releases/latest/download/small-hours-godot-world-map-free-project.zip) · [Watch the 61-second tutorial](https://www.youtube.com/watch?v=sb3LY0ox1tk) · [Try the bridge-pass scene](#unlock-east-gate-with-a-bridge-pass)
 
 ![Godot 4.6 running the sample with a dashed route to Pine Camp](docs/godot-preview.png)
 
@@ -33,6 +33,20 @@ The free project starts with a locked gate. Try the following in a copy of the p
 ```
 
 In your game, use your quest or inventory state to decide when the bridge pass reveals the route.
+
+## Unlock East Gate with a bridge pass
+
+Open [`examples/bridge_pass_map.tscn`](examples/bridge_pass_map.tscn) in Godot 4.6 and press **F6**. If you started with the v1.0.0 ZIP, place the [scene](examples/bridge_pass_map.tscn) and [GDScript](examples/world_map_bridge_pass.gd) in an `examples/` folder next to `project.godot` first.
+
+1. Select **East Gate**. It shows **Locked** and the route stays hidden.
+2. Select **Pine Camp**, then **Take bridge pass**.
+3. Select **East Gate** again. Five dashed tiles connect the camp to the gate.
+
+![Godot shows the unlocked East Gate route after the player takes the bridge pass](docs/bridge-pass-open.png)
+
+Call `set_bridge_pass(owned)` on the map after it is ready whenever your game's inventory or quest state changes. The sample keeps ownership in memory for the current run. Connect your own save system if the pass should persist. The separate scene uses the free project art and keeps the original map scene available with **F5**.
+
+[Try the original world map in your browser](https://small-hours-assets.vercel.app/guides/godot-world-map?utm_source=github_world_map_project) · [Find the route and quest icon packs in the Black Friday sale](https://small-hours-assets.vercel.app/black-friday?utm_source=github_world_map_project)
 
 ## What you get
 

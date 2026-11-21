@@ -1,0 +1,7 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://world_map.tscn" id="1_map"]
+[ext_resource type="Script" path="res://examples/world_map_bridge_pass.gd" id="2_pass"]
+
+[node name="BridgePassMap" instance=ExtResource("1_map")]
+script = ExtResource("2_pass")
