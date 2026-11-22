@@ -9,6 +9,8 @@ Alder Valley is a free, editable Godot 4.6 project. Select a map marker, show a 
 
 [Watch the 36-second demo and get the free project](https://small-hours-assets.vercel.app/guides/godot-world-map-bridge-pass?utm_source=github_bridge_pass_readme) · [Wire a quest flag to the map in GDScript](docs/quest-locked-routes.md) · [Watch the 61-second world map tutorial](https://www.youtube.com/watch?v=sb3LY0ox1tk)
 
+[Add a custom location marker](docs/custom-map-marker.md) in `world_map.json`. The example adds a clickable ferry landing using a PNG included in both downloads.
+
 ![Godot 4.6 running the sample with a dashed route to Pine Camp](docs/godot-preview.png)
 
 For the basic map, import `project.godot` in Godot 4.6 and press F5. Select Pine Camp to preview a route. Select East Gate to inspect the locked state. Use the mouse or Tab and Enter.

@@ -1,0 +1,133 @@
+{
+  "name": "Alder Valley",
+  "width": 640,
+  "height": 384,
+  "background": "alder-valley.svg",
+  "places": [
+    {
+      "id": "town",
+      "name": "Alder Crossing",
+      "icon": "sh_exploration_map_markers_town_light_64.png",
+      "position": [
+        96,
+        288
+      ],
+      "status": "Current location",
+      "detail": "Start here. Select Pine Camp to preview the trail north."
+    },
+    {
+      "id": "camp",
+      "name": "Pine Camp",
+      "icon": "sh_exploration_map_markers_camp_light_64.png",
+      "position": [
+        288,
+        160
+      ],
+      "status": "Route available",
+      "detail": "Follow the old road north from Alder Crossing. The dashed trail is the selected route."
+    },
+    {
+      "id": "gate",
+      "name": "East Gate",
+      "icon": "sh_exploration_map_markers_waypoint_light_64.png",
+      "position": [
+        544,
+        160
+      ],
+      "status": "Locked",
+      "detail": "Requires a bridge pass. The route stays hidden while the gate is locked."
+    },
+    {
+      "id": "west_ferry",
+      "name": "West Ferry",
+      "icon": "sh_exploration_map_markers_waypoint_light_64.png",
+      "position": [
+        360,
+        224
+      ],
+      "status": "Point of interest",
+      "detail": "A ferry landing on the west bank."
+    }
+  ],
+  "terrain": [
+    {
+      "name": "Mountain ridge",
+      "icon": "sh_world_map_terrain_symbols_mountain_ridge_light_64.png",
+      "position": [
+        136,
+        98
+      ]
+    },
+    {
+      "name": "Pine grove",
+      "icon": "sh_world_map_terrain_symbols_pine_grove_light_64.png",
+      "position": [
+        270,
+        59
+      ]
+    },
+    {
+      "name": "Lake",
+      "icon": "sh_world_map_terrain_symbols_lake_light_64.png",
+      "position": [
+        425,
+        272
+      ]
+    },
+    {
+      "name": "Dunes",
+      "icon": "sh_world_map_terrain_symbols_dunes_light_64.png",
+      "position": [
+        555,
+        270
+      ]
+    }
+  ],
+  "routes": {
+    "camp": [
+      {
+        "tile": "end_e",
+        "position": [
+          96,
+          288
+        ]
+      },
+      {
+        "tile": "straight_ew",
+        "position": [
+          160,
+          288
+        ]
+      },
+      {
+        "tile": "straight_ew",
+        "position": [
+          224,
+          288
+        ]
+      },
+      {
+        "tile": "corner_nw",
+        "position": [
+          288,
+          288
+        ]
+      },
+      {
+        "tile": "straight_ns",
+        "position": [
+          288,
+          224
+        ]
+      },
+      {
+        "tile": "end_e",
+        "position": [
+          288,
+          160
+        ],
+        "rotation": 90
+      }
+    ]
+  }
+}
