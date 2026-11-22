@@ -1,12 +1,17 @@
-# Alder Valley, a free Godot 4.6 RPG world map
+# Godot 4 RPG world map with quest-locked routes
 
-Preview a six-tile route, show why a destination is locked, and place four terrain symbols on a 2D map. The project includes an editable GDScript scene.
+Alder Valley is a free, editable Godot 4.6 project. Select a map marker, show a route, and unlock East Gate when the player gets a bridge pass. The GDScript example lets a quest or inventory flag control whether the route appears.
 
-[Play the world map in your browser](https://small-hours-assets.vercel.app/guides/godot-world-map?utm_source=github_world_map_project#world-title) · [Download the Godot project ZIP](https://github.com/yaotao3000/godot-world-map-free/releases/latest/download/small-hours-godot-world-map-free-project.zip) · [Watch the 61-second tutorial](https://www.youtube.com/watch?v=sb3LY0ox1tk) · [Try the bridge-pass scene](#unlock-east-gate-with-a-bridge-pass)
+| Example | Run it in Godot 4.6 |
+| --- | --- |
+| **Bridge-pass map** | [Download the bridge-pass ZIP](https://github.com/yaotao3000/godot-world-map-free/releases/download/v1.0.0/small-hours-godot-bridge-pass-free-project.zip). Press F5, take the pass at Pine Camp, then select East Gate. |
+| **Basic map** | [Download the basic map ZIP](https://github.com/yaotao3000/godot-world-map-free/releases/download/v1.0.0/small-hours-godot-world-map-free-project.zip). Press F5 to select locations and preview the six-tile route to Pine Camp. |
+
+[Watch the 36-second demo and get the free project](https://small-hours-assets.vercel.app/guides/godot-world-map-bridge-pass?utm_source=github_bridge_pass_readme) · [Wire a quest flag to the map in GDScript](docs/quest-locked-routes.md) · [Watch the 61-second world map tutorial](https://www.youtube.com/watch?v=sb3LY0ox1tk)
 
 ![Godot 4.6 running the sample with a dashed route to Pine Camp](docs/godot-preview.png)
 
-Import `project.godot` in Godot 4.6 and press F5. Select Pine Camp to preview a route. Select East Gate to inspect the locked state. Use the mouse or Tab and Enter.
+For the basic map, import `project.godot` in Godot 4.6 and press F5. Select Pine Camp to preview a route. Select East Gate to inspect the locked state. Use the mouse or Tab and Enter.
 
 ## Bring it into your own game
 
@@ -38,7 +43,7 @@ In your game, use your quest or inventory state to decide when the bridge pass r
 
 [Download the ready-to-run bridge-pass ZIP](https://github.com/yaotao3000/godot-world-map-free/releases/download/v1.0.0/small-hours-godot-bridge-pass-free-project.zip). Import `project.godot` in Godot 4.6 and press F5.
 
-Open [`examples/bridge_pass_map.tscn`](examples/bridge_pass_map.tscn) in Godot 4.6 and press **F6**. If you started with the v1.0.0 ZIP, place the [scene](examples/bridge_pass_map.tscn) and [GDScript](examples/world_map_bridge_pass.gd) in an `examples/` folder next to `project.godot` first.
+Open [`examples/bridge_pass_map.tscn`](examples/bridge_pass_map.tscn) in Godot 4.6 and press **F6**. If you started with the basic map ZIP, place the [scene](examples/bridge_pass_map.tscn) and [GDScript](examples/world_map_bridge_pass.gd) in an `examples/` folder next to `project.godot` first.
 
 1. Select **East Gate**. It shows **Locked** and the route stays hidden.
 2. Select **Pine Camp**, then **Take bridge pass**.
@@ -52,7 +57,7 @@ Call `set_bridge_pass(owned)` on the map after it is ready whenever your game's 
 
 ## What you get
 
-One editable scene, one replaceable map diagram, and 11 transparent 64 × 64 PNGs drawn from three free samples. This demo previews routes from data. Its example states are supplied in the project data for you to connect to your game.
+Both ZIPs include a replaceable map diagram, GDScript, route JSON and 11 transparent 64 × 64 PNGs from three free samples. The basic ZIP opens the first scene. The bridge-pass ZIP includes both scenes and opens the interactive gate example.
 
 - [Read the Godot guide](https://small-hours-assets.vercel.app/guides/godot-world-map?utm_source=github_world_map_project)
 - [Browse the Small Hours Black Friday packs](https://small-hours-assets.vercel.app/black-friday?utm_source=github_world_map_project)
