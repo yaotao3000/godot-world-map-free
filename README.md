@@ -19,6 +19,12 @@ For the basic map, import `project.godot` in Godot 4.6 and press F5. Select Pine
 
 Copy `world_map.tscn`, `world_map.gd`, `world_map.json` and `art/` into a new 2D project at its root. Open the scene and press F6. Point `background` in `world_map.json` at your own map image in `art/`. Keep the 640 × 384 logical canvas and update each center in `position` using coordinates measured from the top left. Keep route tile centers 64 pixels apart for seamless joins. Edit location names and details in JSON. Add a destination route by mapping its ID under `routes`, using the supplied tile names or extra tiles from the Map Route Tiles pack. A location without a route entry still shows its details.
 
+## Add clickable markers to your own 2D map
+
+Use a `TextureRect` for the map and a `Button` for each location. Store marker positions as fractions of the source image. In **Keep Aspect Centered** mode, place each marker inside the area drawn by the texture so it stays on the landmark as the window resizes.
+
+[Try the four clickable markers and copy the GDScript](https://small-hours-assets.vercel.app/guides/godot-map-markers?utm_source=github_map_marker_setup). The guide includes a separate Godot 4.6 project and four free PNG icons.
+
 ## Add a route to East Gate
 
 The free project starts with a locked gate. Try the following in a copy of the project.
